@@ -1,0 +1,4 @@
+model,overall_pr_auc_mean,overall_pr_auc_std,current_normal_pr_auc_mean,current_normal_pr_auc_std,predictable_onset_pr_auc_mean,predictable_onset_pr_auc_std,abrupt_onset_pr_auc_mean,abrupt_onset_pr_auc_std,recovery_fpr_mean,recovery_fpr_std
+OPR-GRU,0.9231,0.0013,0.7491,0.0033,0.8594,0.0039,0.0262,0.0002,0.6667,0.0285
+OPR-TSMixer,0.9230,0.0021,0.7535,0.0029,0.8635,0.0048,0.0278,0.0033,0.8119,0.0359
+

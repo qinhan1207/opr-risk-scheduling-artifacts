@@ -1,0 +1,5 @@
+strategy,end_to_end_avg_latency_ms_mean,end_to_end_avg_latency_ms_std,end_to_end_p95_latency_ms_mean,end_to_end_p95_latency_ms_std,end_to_end_p99_latency_ms_mean,end_to_end_p99_latency_ms_std,end_to_end_throughput_req_s_mean,end_to_end_throughput_req_s_std
+ROS,121.66,0.07,121.09,0.13,121.31,0.15,164.22,0.08
+SNS,89.34,61.78,127.45,105.39,194.80,181.15,380.37,244.61
+RAS,47.34,27.88,55.03,60.98,60.55,84.39,480.89,129.23
+

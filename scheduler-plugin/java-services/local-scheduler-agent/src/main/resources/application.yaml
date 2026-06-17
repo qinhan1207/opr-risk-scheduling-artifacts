@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: local-scheduler-agent
+server:
+  port: 8081
+
+# LSA 核心配置
+lsa:
+  # 运行模式: standalone (本地开发) / distributed (集群内运行)
+  # 在 k8s deployment 中，可以通过环境变量 LSA_MODE=distributed 覆盖
+  mode: ${LSA_MODE:standalone}
+
+  # 当前集群名称 (分布式模式必填)
+  # 在 k8s deployment 中，通过环境变量 LSA_CURRENT_CLUSTER_NAME=kind-1 注入
+  current-cluster-name: ${LSA_CURRENT_CLUSTER_NAME:unknown}
+
+  # 采样周期（毫秒）：高频采样并更新 latency window
+  sample-interval-ms: ${LSA_SAMPLE_INTERVAL_MS:1000}
+
+  # 上报周期（毫秒）：低频将窗口数据上报给GS
+  report-interval-ms: ${LSA_REPORT_INTERVAL_MS:5000}
+
+  # latency window 大小：每次上报携带最近 N 个 member-cluster-level latency 观测值
+  latency-window-size: ${LSA_LATENCY_WINDOW_SIZE:10}
+
+  # 集中式模式配置 (本地开发用)
+  clusters:
+    configs:
+      - name: member1
+        kubeconfigPath: E:\kubeconfig\member1.kubeconfig
+      - name: member2
+        kubeconfigPath: E:\kubeconfig\member2.kubeconfig
+      - name: member3
+        kubeconfigPath: E:\kubeconfig\member3.kubeconfig
+
+# 全局调度器地址 (Java Brain)
+global:
+  scheduler:
+    # 在 k8s 中，这里的 localhost 需要改为宿主机 IP (如 10.11.17.1)
+    # 可以通过环境变量 GLOBAL_SCHEDULER_URL 覆盖
+    url: ${GLOBAL_SCHEDULER_URL:http://localhost:8088}

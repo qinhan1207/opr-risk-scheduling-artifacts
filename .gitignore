@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.venv/
+venv/
+env/
+
+*.log
+*.tmp
+
+training_scripts/collected_v3/
+training_scripts/*_outputs*/
+training_scripts/**/models/
+training_scripts/**/predictions/
+

@@ -1,0 +1,5 @@
+input_representation,overall_roc_auc,overall_pr_auc,overall_brier,current_normal_pr_auc,predictable_onset_pr_auc,recovery_fpr
+Raw latency window,0.9483,0.8883,0.0380,0.6450,0.7725,0.9080
+Basic-stat window,0.9613,0.8618,0.0410,0.6583,0.7725,0.8742
+OPR,0.9757,0.9217,0.0324,0.7526,0.8656,0.8067
+

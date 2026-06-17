@@ -1,0 +1,7 @@
+member,avg_latency_ms,p95_latency_ms,p99_latency_ms,throughput_req_s
+member1,121.70,121.23,121.45,164.18
+member2,30.96,31.20,31.47,644.11
+member3,156.61,231.06,406.25,127.47
+member4,46.12,46.24,46.49,432.77
+member5,46.06,46.22,46.43,433.32
+

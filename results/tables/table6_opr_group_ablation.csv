@@ -1,0 +1,8 @@
+input_variant,dimension,overall_pr_auc,current_normal_pr_auc,predictable_onset_pr_auc,brier,recovery_fpr
+Full OPR,13,0.9223,0.7506,0.8607,0.0329,0.8528
+w/o local deviation,11,0.9215,0.7522,0.8612,0.0332,0.8129
+w/o threshold proximity,11,0.9208,0.7482,0.8545,0.0328,0.7301
+w/o positive growth,10,0.9180,0.7516,0.8610,0.0338,0.9172
+w/o near-threshold persistence,12,0.9188,0.7478,0.8641,0.0325,0.7853
+w/o local peak,12,0.9211,0.7559,0.8648,0.0329,0.9172
+
