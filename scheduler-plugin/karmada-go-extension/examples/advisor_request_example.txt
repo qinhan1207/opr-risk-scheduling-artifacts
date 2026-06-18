@@ -1,0 +1,2 @@
+GET /api/advisor/score?cluster=member1
+GET /api/advisor/score?cluster=member1&target=member2

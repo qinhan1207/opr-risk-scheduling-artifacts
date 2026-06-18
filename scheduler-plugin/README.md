@@ -19,6 +19,9 @@ The scheduling chain contains four components:
    side consumes the returned candidate scores and uses them in the final
    ranking decision.
 
+   The selected Go-side plugin files are provided in
+   `scheduler-plugin/karmada-go-extension/`.
+
 2. Edge-side Java probe service
 
    A Java service runs on the edge/testbed side to collect cross-cluster
@@ -77,6 +80,8 @@ is reflected in:
 
 - `training_scripts/`: risk model training and evaluation.
 - `inference_service/`: Python OPR-TSMixer inference service.
+- `scheduler-plugin/karmada-go-extension/`: selected Go-side Karmada scheduler
+  plugin files for `GlobalAdvisor`.
 - `scheduler-plugin/java-services/`: selected Java-side integration code for
   latency-window reporting, Python inference invocation, and risk-aware scoring.
 - `data/window_samples/`: supervised samples used to train/evaluate risk

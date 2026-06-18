@@ -20,8 +20,8 @@ are collected observations from the controlled multi-cluster testbed.
   scheduler scoring chain.
 - `models/opr-risk/`: trained OPR risk-prediction model artifacts loaded by
   the inference service.
-- `scheduler-plugin/`: scheduler integration notes for the Go-Java-Python
-  risk-aware scoring chain used in the testbed.
+- `scheduler-plugin/`: Go, Java, and integration notes for the risk-aware
+  scheduler scoring chain used in the testbed.
 - `configs/`: testbed configuration notes, including software versions and
   member-cluster roles.
 - `docs/`: implementation notes that clarify artifact-to-paper mappings.

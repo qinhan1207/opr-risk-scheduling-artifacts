@@ -1,0 +1,5 @@
+{
+  "clusterName": "member1",
+  "healthScore": 87.5,
+  "reason": "Latency:30.10ms Risk:0.1200 Cost:0.110 -> Score:89.0"
+}
