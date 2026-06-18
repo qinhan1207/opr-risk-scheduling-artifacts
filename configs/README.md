@@ -3,6 +3,9 @@
 This directory documents the experimental environment used for the released
 artifacts.
 
+For the broader Python, Java, Go, and Karmada software environment, see
+`../ENVIRONMENT.md`.
+
 ## Software Stack
 
 - Kubernetes: v1.31.14
@@ -32,4 +35,3 @@ observed in the collected traces.
 The exact Kubernetes and Karmada deployment manifests are environment-specific.
 The released data and result summaries are intended to support inspection of the
 reported experiments without requiring the complete private testbed deployment.
-

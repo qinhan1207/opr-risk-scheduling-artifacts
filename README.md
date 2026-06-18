@@ -24,6 +24,8 @@ are collected observations from the controlled multi-cluster testbed.
   scheduler scoring chain used in the testbed.
 - `configs/`: testbed configuration notes, including software versions and
   member-cluster roles.
+- `ENVIRONMENT.md`: software environment notes for Python, Java, Go, and the
+  Kubernetes/Karmada testbed.
 - `docs/`: implementation notes that clarify artifact-to-paper mappings.
 - `scripts/`: controlled network perturbation utility used in the testbed.
 - `results/tables/`: CSV summaries corresponding to the main tables and
