@@ -90,3 +90,9 @@ python inference_service/inference_server_opr.py
 
 If you use these artifacts, please cite the corresponding paper. A formal
 citation entry will be added after publication.
+
+## License
+
+This repository is released under the Apache License 2.0. The released
+datasets and model artifacts are provided for academic research and
+reproducibility.
